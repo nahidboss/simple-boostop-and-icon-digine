@@ -1,0 +1,211 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: monospace,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    background-color:#350f0c;
+    height: 80px;
+    width: 100%;
+
+}
+label.logo {
+    color: white;
+    line-height: 80px;
+    padding: 0px 100px;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.logo::before {
+    content: "Boos";
+   
+    font-size: 40px;
+    transition: 4px;
+    color: #5313e7;
+
+}
+.logo::after{
+    content: "top";
+    position: relative;
+    color: rgb(17, 202, 32);
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+  text-decoration: none;
+
+}
+nav ul li{
+    margin:0px 5px;
+
+    display: inline-block;
+    line-height:80px;
+    text-decoration: none;
+}
+nav ul li a {
+    font-size: 17px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 7px 13px;
+    
+
+}
+a.active,a:hover{
+background-color: #2eff1b;
+transition: .5s;
+
+}
+   /* This is a boutton style  */
+   
+.button h1{
+    text-align: center;
+    font-style: oblique;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: darkblue;
+    margin: 0px;
+    padding: 20px;
+
+}
+
+.button{
+    margin:5px 20px;
+    padding: 12px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-size: 30px;
+   
+}
+.top P{
+    width: 52%;
+    height: 70%;
+    text-align: justify;
+    border: 1px solid darkblue;
+    padding: 10px;
+    margin: 24px;
+    text-shadow: 20px ;
+    box-sizing: border-box;
+    box-shadow: 1px 1px ;
+    border-radius: 20px 30px ;
+    font-style: unset;
+    display: inline-block;
+    background-image: url(https://www.pcclean.io/wp-content/gallery/aurora-hd-wallpapers/735823.jpg);
+    background-repeat: no-repeat;
+    color: aqua;
+    background-position: center;
+    background-size: cover;
+    
+}
+.top P::first-letter{
+    font-size: 50px;
+    color: darkmagenta;
+    opacity: 1;
+    overflow: visible;
+
+}
+.top p::selection{
+    color:darkslategray;
+}
+.one p{
+    width: 45%;
+    height:0%;
+    text-align: justify;
+    border: 1px solid darkblue;
+    padding: 10px;
+    margin: 2px;
+    text-shadow: 20px ;
+    box-sizing: border-box;
+    box-shadow: 1px 1px ;
+    border-radius: 20px 30px ;
+    font-style: unset;
+    display: inline-block;
+    float: right;
+    margin-top: -498px;
+    background-image: url(https://images3.alphacoders.com/823/thumb-1920-82317.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    backface-visibility: 1px;
+    color:aqua;
+    background-size: cover;
+
+
+}
+.one P::first-line{
+    font-size: 40px;
+    color: red;
+    text-align: center;
+    
+}
+ /* this is a facebook disinge stylw  */
+
+
+ .facebook{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(40, 40, 163);
+    
+ }
+ .facebook input{
+   width: 150px;
+   height: 20px;
+   font-size: 20px;
+   border-radius: 15px 20px;
+
+ }
+ .facebook,fa-brands fa-facebook{
+    font-size: 156px;
+    margin: 53px auto;
+    text-align: center;
+ }
+ ol{
+    width: 40px;
+    font-size: 40px;
+    text-decoration: none;
+    text-transform: capitalize;
+
+ }
+ ol,li{
+    text-align: center;
+    text-decoration: none;
+
+ }
+ ol,li,a{
+    text-decoration: none;
+    text-align: center;
+    margin: 0px auto;
+    margin-bottom: -100px;
+
+ }
+ .facebook img{
+    width: 200px;
+    height: 400px;
+    float: right;
+
+ }
+
+ .footer {
+    border: 1px solid blue;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(37, 37, 148);
+    margin-top: 45px;
+    padding: 20px;
+    text-align: center;
+    font-size: 100px;
+
+ }
+ .footer p,h1,h2{
+    font-size: 50px;
+    text-transform: capitalize;
+
+ }
+ .footer h1{
+    color: rgb(94, 12, 12);
+ }
